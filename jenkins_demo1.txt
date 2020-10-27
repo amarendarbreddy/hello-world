@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  jmeter 'C:\Users\amar\Downloads\apache-jmeter-5.2.1\apache-jmeter-5.2.1\bin\jmeter.bar -n -t C:\Users\amar\Downloads\Jtestrun.jmx -l C:\Users\amar\Downloads\testruns.jtl'
+}
